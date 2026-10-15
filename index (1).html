@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Popular places, festivals, arts, crafts and food of Andhra Pradesh and Telangana. Special National Integration Camp, Vijayawada.">
+<title>AP & Telangana Guide</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&family=Rozha+One&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <svg class="chakra" viewBox="-50 -50 100 100" aria-hidden="true" focusable="false"><circle r="46" fill="none" stroke="currentColor" stroke-width="3"/><circle r="8" fill="none" stroke="currentColor" stroke-width="3"/><g stroke="currentColor" stroke-width="1.6"><line x1="-46" y1="0" x2="46" y2="0" transform="rotate(0)"/><line x1="-46" y1="0" x2="46" y2="0" transform="rotate(15)"/><line x1="-46" y1="0" x2="46" y2="0" transform="rotate(30)"/><line x1="-46" y1="0" x2="46" y2="0" transform="rotate(45)"/><line x1="-46" y1="0" x2="46" y2="0" transform="rotate(60)"/><line x1="-46" y1="0" x2="46" y2="0" transform="rotate(75)"/><line x1="-46" y1="0" x2="46" y2="0" transform="rotate(90)"/><line x1="-46" y1="0" x2="46" y2="0" transform="rotate(105)"/><line x1="-46" y1="0" x2="46" y2="0" transform="rotate(120)"/><line x1="-46" y1="0" x2="46" y2="0" transform="rotate(135)"/><line x1="-46" y1="0" x2="46" y2="0" transform="rotate(150)"/><line x1="-46" y1="0" x2="46" y2="0" transform="rotate(165)"/></g></svg>
+  <div class="wrap">
+    <img class="logo" data-slug="ncc-logo" alt="NCC, AP &amp; Telangana Directorate" onerror="tryNext(this)">
+    <p class="eyebrow">Special National Integration Camp · Vijayawada</p>
+    <h1><span class="ap">Andhra Pradesh</span> <span class="amp">&amp;</span> <span class="tg">Telangana</span></h1>
+    <p class="tagline">Heritage · Culture · Tradition · Unity</p>
+    <p class="presenter"><strong>AP &amp; Telangana Directorate</strong></p>
+  </div>
+  <div class="ikat" aria-hidden="true"></div>
+  <div class="tri" aria-hidden="true"><i></i><i></i><i></i></div>
+</header>
+
+<nav class="bar" aria-label="State switch">
+  <div class="wrap">
+    <span class="bar-label">Choose a state</span>
+    <div class="seg" id="seg">
+      <button type="button" data-f="tg" aria-pressed="true">Telangana</button>
+      <button type="button" data-f="ap" aria-pressed="false">Andhra Pradesh</button>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap">
+  <nav class="jump" aria-label="Sections">
+    <ul>
+      <li><a class="s-map" href="#map">District map</a></li>
+      <li><a class="s-places" href="#places">Places</a></li>
+      <li><a class="s-festivals" href="#festivals">Festivals</a></li>
+      <li><a class="s-arts" href="#arts">Dance &amp; folk arts</a></li>
+      <li><a class="s-crafts" href="#crafts">Crafts</a></li>
+      <li><a class="s-food" href="#food">Food</a></li>
+      <li><a class="s-dussehra" href="#dussehra">Dussehra</a></li>
+      <li><a class="s-compare" href="#compare">Side by side</a></li>
+    </ul>
+  </nav>
+
+  <section id="shared" class="s-shared">
+    <p class="kicker">One Telugu heritage</p>
+    <h2>Two states, one shared culture</h2>
+    <p class="lede">Telangana and Andhra Pradesh share the Telugu language and literature, customs, performing arts, food and hospitality. Each state has its own regional expression of that heritage.</p>
+    <ul class="list">
+      <li class="item">
+        <span class="tag tg">Telangana</span>
+        <h3>Deccan and Kakatiya heritage</h3>
+        <p class="d">A south-central state with a Deccan landscape, Hyderabad, rich folk traditions, Bathukamma and Bonalu.</p>
+      </li>
+      <li class="item">
+        <span class="tag ap">Andhra Pradesh</span>
+        <h3>Coastal and Buddhist heritage</h3>
+        <p class="d">A southeastern state with a long Bay of Bengal coastline, temple and Buddhist heritage, Kuchipudi and Sankranti.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="map" class="s-map">
+    <p class="kicker">District map</p>
+    <h2>Explore by district</h2>
+    <p class="lede">Tap a district on the map, or pick it from the list below, to see what to visit there.</p>
+
+    <div class="mapbox" data-s="tg">
+      <div class="mapgrid">
+        <div class="mapwrap" id="map-tg"></div>
+        <div class="panel tgp" id="info-tg" aria-live="polite"></div>
+      </div>
+      <p class="p-head chiphead">All 33 districts of Telangana</p>
+      <div class="chips" id="chips-tg"></div>
+      <p class="mapnote">Telangana has 33 districts on this map. Warangal Urban and Warangal Rural are now called Hanamkonda and Warangal.</p>
+    </div>
+
+    <div class="mapbox" data-s="ap">
+      <div class="mapgrid">
+        <div class="mapwrap" id="map-ap"></div>
+        <div class="panel app" id="info-ap" aria-live="polite"></div>
+      </div>
+      <p class="p-head chiphead">All 26 districts of Andhra Pradesh</p>
+      <div class="chips" id="chips-ap"></div>
+      <p class="mapnote">Andhra Pradesh has 26 districts on this map. Small districts are easier to pick from the list.</p>
+    </div>
+  </section>
+
+  <section id="places" class="s-places">
+    <p class="kicker">Places</p>
+    <h2>Where to go</h2>
+    <p class="lede">Hyderabad and Warangal in Telangana. The coast, the hills and the pilgrimage towns of Andhra Pradesh.</p>
+    <ul class="list three">
+      <li class="item" data-s="tg"><img class="ph" data-slug="charminar" alt="Charminar" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Charminar</h3><p class="where">Hyderabad</p><p class="d">The best-known landmark of historic Hyderabad.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="golconda-fort" alt="Golconda Fort" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Golconda Fort</h3><p class="where">Hyderabad</p><p class="d">A historic Deccan fort on the edge of the city.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="chowmahalla-palace" alt="Chowmahalla Palace" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Chowmahalla Palace</h3><p class="where">Hyderabad</p><p class="d">A palace from Hyderabad's royal past.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="laad-bazaar" alt="Laad Bazaar" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Laad Bazaar</h3><p class="where">Hyderabad</p><p class="d">A busy market lane near Charminar, part of the city's living culture.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="hussain-sagar" alt="Hussain Sagar" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Hussain Sagar</h3><p class="where">Hyderabad</p><p class="d">The lake at the centre of the modern city.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="warangal-fort" alt="Warangal Fort" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Warangal Fort</h3><p class="where">Warangal</p><p class="d">Fortifications of the Kakatiya capital.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="thousand-pillar-temple" alt="Thousand Pillar Temple" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Thousand Pillar Temple</h3><p class="where">Warangal</p><p class="d">Distinctive Kakatiya temple architecture.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="ramappa-temple" alt="Ramappa Temple" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Ramappa Temple</h3><p class="where">Palampet</p><p class="d">A Kakatiya temple and a UNESCO World Heritage Site.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="sri-venkateswara-temple" alt="Sri Venkateswara Temple" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Sri Venkateswara Temple</h3><p class="where">Tirumala, near Tirupati</p><p class="d">A major pilgrimage centre with visitors from across India.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="amaravati-mahastupa" alt="Amaravati Mahastupa" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Amaravati Mahastupa</h3><p class="where">Amaravati</p><p class="d">Buddhist heritage in one of Andhra's historic centres.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="visakhapatnam-coast" alt="Visakhapatnam coast" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Visakhapatnam coast</h3><p class="where">Visakhapatnam</p><p class="d">Beaches along the Bay of Bengal.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="araku-valley" alt="Araku Valley" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Araku Valley</h3><p class="where">Eastern Ghats</p><p class="d">Hill scenery inland from the coast.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="borra-caves" alt="Borra Caves" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Borra Caves</h3><p class="where">Eastern Ghats</p><p class="d">Caves in the hills, a popular stop with the Araku trip.</p></li>
+    </ul>
+    <p class="note" data-s="tg"><strong>The Kakatiya legacy.</strong> Warangal was the Kakatiya capital. Its fort, temple architecture and the tradition of building water tanks all come from that period.</p>
+    <p class="note" data-s="ap"><strong>Layers of Andhra heritage.</strong> Satavahana and Buddhist heritage, temple architecture and Vijayanagara influence. These are shown in sequence of heritage, not exact dates.</p>
+  </section>
+
+  <section id="festivals" class="s-festivals">
+    <p class="kicker">Festivals</p>
+    <h2>Celebrations through the year</h2>
+    <p class="lede">Bathukamma and Bonalu are strongly identified with Telangana. Sankranti and Ugadi are central in Andhra Pradesh. Some festivals are celebrated in both states in their own regional style.</p>
+    <ul class="list">
+      <li class="item" data-s="tg"><img class="ph" data-slug="bathukamma" alt="Bathukamma" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Bathukamma</h3><p class="d">Floral arrangements and traditional songs. A festival that stands for Telangana's identity.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="bonalu" alt="Bonalu" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Bonalu</h3><p class="d">Worship of Mahankali with community celebrations, processions and customs.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="sankranti" alt="Sankranti" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Sankranti</h3><p class="d">Bhogi, Sankranti and Kanuma, with muggulu (rangoli), harvest and family traditions.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="ugadi" alt="Ugadi" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Ugadi</h3><p class="d">The Telugu New Year, with traditional celebrations and family customs.</p></li>
+      <li class="item" data-s="both"><img class="ph" data-slug="dussehra-vijayadashami" alt="Dussehra / Vijayadashami" loading="lazy" onerror="tryNext(this)"><span class="tag both">Both states</span><h3>Dussehra / Vijayadashami</h3><p class="d">Good over evil. In Telangana it is celebrated statewide with family and community rites. In Andhra Pradesh the Dasara festivities at Kanaka Durga Temple, Vijayawada, are well known.</p></li>
+      <li class="item" data-s="both"><img class="ph" data-slug="ganesh-chaturthi" alt="Ganesh Chaturthi" loading="lazy" onerror="tryNext(this)"><span class="tag both">Both states</span><h3>Ganesh Chaturthi</h3><p class="d">Public pandals, cultural programmes, processions and immersion, with grand events in Hyderabad.</p></li>
+    </ul>
+  </section>
+
+  <section id="arts" class="s-arts">
+    <p class="kicker">Dance and folk arts</p>
+    <h2>Stories told in movement and song</h2>
+    <ul class="list">
+      <li class="item" data-s="ap"><img class="ph" data-slug="kuchipudi" alt="Kuchipudi" loading="lazy" onerror="tryNext(this)">
+        <span class="tag ap">Andhra Pradesh</span><h3>Kuchipudi</h3>
+        <p class="where">Named after Kuchipudi village</p>
+        <p class="d">A classical Indian dance tradition strongly associated with Andhra Pradesh.</p>
+        <p class="formula"><span>Dance</span><span>+</span><span>Music</span><span>+</span><span>Drama</span><span>+</span><span>Storytelling</span></p>
+      </li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="perini-shivatandavam" alt="Perini Shivatandavam" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Perini Shivatandavam</h3><p class="d">A vigorous dance dedicated to Lord Shiva.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="oggu-katha" alt="Oggu Katha" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Oggu Katha</h3><p class="d">Ballad storytelling on the legends of Lord Mallanna.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="burrakatha" alt="Burrakatha" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Burrakatha</h3><p class="d">Musical storytelling on legends and social themes.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="dappu" alt="Dappu" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Dappu</h3><p class="d">A frame drum beaten at festivals and processions.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="folk-music-and-oral-storytelling" alt="Folk music and oral storytelling" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Folk music and oral storytelling</h3><p class="d">Songs of harvest, worship and daily life, and an oral tradition that carries history across generations.</p></li>
+    </ul>
+  </section>
+
+  <section id="crafts" class="s-crafts">
+    <p class="kicker">Handlooms and crafts</p>
+    <h2>Threads, paints and wood</h2>
+    <p class="lede">Each craft is tied to a place. Look for the town name on the label.</p>
+    <ul class="list three">
+      <li class="item" data-s="tg"><img class="ph" data-slug="pochampally-ikat" alt="Pochampally Ikat" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Pochampally Ikat</h3><p class="where">Pochampally, Yadadri Bhuvanagiri</p><p class="d">Tie-dyed yarn woven into geometric patterns.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="gadwal-textiles" alt="Gadwal textiles" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Gadwal textiles</h3><p class="where">Gadwal, Jogulamba Gadwal</p><p class="d">Handloom sarees with a cotton body and silk borders.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="narayanpet-textiles" alt="Narayanpet textiles" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Narayanpet textiles</h3><p class="where">Narayanpet</p><p class="d">Handloom cotton and silk sarees with rich borders.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="cheriyal-paintings" alt="Cheriyal paintings" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Cheriyal paintings</h3><p class="where">Cheriyal, Siddipet</p><p class="d">Bold painted scrolls that narrate folk stories.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="nirmal-art" alt="Nirmal art" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Nirmal art</h3><p class="where">Nirmal</p><p class="d">Paintings and wooden toys with glossy, rich colour.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="kalamkari" alt="Kalamkari" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Kalamkari</h3><p class="where">Srikalahasti and Machilipatnam</p><p class="d">Hand-painted and block-printed textile art.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="kondapalli-toys" alt="Kondapalli toys" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Kondapalli toys</h3><p class="where">Kondapalli, near Vijayawada</p><p class="d">Light wooden toys, painted by hand.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="etikoppaka-toys" alt="Etikoppaka toys" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Etikoppaka toys</h3><p class="where">Etikoppaka, Anakapalli</p><p class="d">Lacquered wooden toys.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="mangalagiri" alt="Mangalagiri" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Mangalagiri</h3><p class="where">Mangalagiri, Guntur</p><p class="d">Handloom cotton with distinctive borders.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="uppada" alt="Uppada" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Uppada</h3><p class="where">Uppada, Kakinada</p><p class="d">Fine Jamdani-style sarees.</p></li>
+    </ul>
+  </section>
+
+  <section id="food" class="s-food">
+    <p class="kicker">Food and flavours</p>
+    <h2>What to eat</h2>
+    <p class="lede">A representative set of regional foods, enjoyed across both states. There are many more dishes in each.</p>
+    <ul class="list">
+      <li class="item" data-s="tg"><img class="ph" data-slug="hyderabadi-biryani" alt="Hyderabadi Biryani" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Hyderabadi Biryani</h3><p class="d">The layered rice dish Hyderabad is known for.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="sarva-pindi" alt="Sarva Pindi" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Sarva Pindi</h3><p class="d">A savoury rice-flour pancake.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="sakinalu" alt="Sakinalu" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Sakinalu</h3><p class="d">A crunchy, spiral-shaped rice-flour snack.</p></li>
+      <li class="item" data-s="tg"><img class="ph" data-slug="jonna-rotte" alt="Jonna Rotte" loading="lazy" onerror="tryNext(this)"><span class="tag tg">Telangana</span><h3>Jonna Rotte</h3><p class="d">Flatbread made from sorghum.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="pesarattu" alt="Pesarattu" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Pesarattu</h3><p class="d">A green gram dosa.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="pulihora" alt="Pulihora" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Pulihora</h3><p class="d">Tangy tamarind rice.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="gongura-dishes" alt="Gongura dishes" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Gongura dishes</h3><p class="d">Dishes made with sour gongura leaves.</p></li>
+      <li class="item" data-s="ap"><img class="ph" data-slug="pootharekulu" alt="Pootharekulu" loading="lazy" onerror="tryNext(this)"><span class="tag ap">Andhra Pradesh</span><h3>Pootharekulu</h3><p class="d">A sweet wrapped in paper-thin sheets.</p></li>
+    </ul>
+  </section>
+
+  <section id="dussehra" class="s-dussehra">
+    <p class="kicker">SNIC · Dussehra period</p>
+    <h2>One festival, many traditions</h2>
+    <p class="lede">The camp falls in the Dussehra period. Here is how the same festival looks across India.</p>
+    <div class="regions">
+      <div class="region"><h3>Telangana</h3><p>Jammi tree worship, and the Bathukamma season.</p></div>
+      <div class="region"><h3>Andhra Pradesh</h3><p>Dasara festivities at Kanaka Durga Temple, Vijayawada.</p></div>
+      <div class="region"><h3>North India</h3><p>Ramlila performances and Ravana effigy burning.</p></div>
+      <div class="region"><h3>South India</h3><p>Mysuru Dasara in Karnataka. Golu displays in Tamil Nadu.</p></div>
+      <div class="region"><h3>Eastern India</h3><p>Durga Puja and Bijoya Dashami in West Bengal.</p></div>
+      <div class="region"><h3>Western India</h3><p>Navratri Garba and Dandiya in Gujarat.</p></div>
+    </div>
+    <p class="pull">At SNIC, we do not just learn about India's diversity. We experience it together.</p>
+  </section>
+
+  <section id="compare" class="s-compare">
+    <p class="kicker">Similarities and differences</p>
+    <h2>Side by side</h2>
+    <div class="cmp">
+      <div class="row"><h3>History</h3><dl><dt class="tg">Telangana</dt><dd>Kakatiya and Deccan heritage</dd><dt class="ap">Andhra</dt><dd>Satavahana, Buddhist, Vijayanagara</dd><dt class="sh">Shared</dt><dd>A rich ancient and medieval past</dd></dl></div>
+      <div class="row"><h3>Festivals</h3><dl><dt class="tg">Telangana</dt><dd>Bathukamma, Bonalu</dd><dt class="ap">Andhra</dt><dd>Sankranti, Ugadi</dd><dt class="sh">Shared</dt><dd>Dussehra, Ganesh Chaturthi</dd></dl></div>
+      <div class="row"><h3>Dance</h3><dl><dt class="tg">Telangana</dt><dd>Perini Shivatandavam</dd><dt class="ap">Andhra</dt><dd>Kuchipudi</dd><dt class="sh">Shared</dt><dd>Classical and folk dance</dd></dl></div>
+      <div class="row"><h3>Arts</h3><dl><dt class="tg">Telangana</dt><dd>Cheriyal, Nirmal</dd><dt class="ap">Andhra</dt><dd>Kalamkari, Kondapalli</dd><dt class="sh">Shared</dt><dd>Storytelling and folk art</dd></dl></div>
+      <div class="row"><h3>Handlooms</h3><dl><dt class="tg">Telangana</dt><dd>Pochampally, Gadwal</dd><dt class="ap">Andhra</dt><dd>Mangalagiri, Uppada</dd><dt class="sh">Shared</dt><dd>A handloom weaving tradition</dd></dl></div>
+      <div class="row"><h3>Food</h3><dl><dt class="tg">Telangana</dt><dd>Sarva Pindi, Jonna Rotte</dd><dt class="ap">Andhra</dt><dd>Pesarattu, Pootharekulu</dd><dt class="sh">Shared</dt><dd>Bold flavours and Telugu hospitality</dd></dl></div>
+      <div class="row"><h3>Landscape</h3><dl><dt class="tg">Telangana</dt><dd>Deccan plateau</dd><dt class="ap">Andhra</dt><dd>Bay of Bengal coast, Eastern Ghats</dd><dt class="sh">Shared</dt><dd>Godavari and Krishna rivers</dd></dl></div>
+      <div class="row"><h3>Heritage</h3><dl><dt class="tg">Telangana</dt><dd>Charminar, Golconda, Ramappa</dd><dt class="ap">Andhra</dt><dd>Amaravati, Tirumala</dd><dt class="sh">Shared</dt><dd>Temples, forts and living traditions</dd></dl></div>
+      <div class="row"><h3>Tourism</h3><dl><dt class="tg">Telangana</dt><dd>Hyderabad, Warangal</dd><dt class="ap">Andhra</dt><dd>Visakhapatnam, Araku, Tirupati</dd><dt class="sh">Shared</dt><dd>Pilgrimage, heritage and nature</dd></dl></div>
+    </div>
+  </section>
+</main>
+
+<footer class="close">
+  <div class="tri" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="wrap">
+    <h2>Unity in diversity</h2>
+    <p>India has many languages, cultures, festivals, foods and histories. NCC brings cadets from different regions together to understand, respect and celebrate that diversity. Different cultures. Different traditions. One nation.</p>
+    <p class="jai">Jai Hind</p>
+    <p class="credit">AP &amp; Telangana Directorate · Special National Integration Camp · Vijayawada</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var EXT = ['jpg', 'jpeg', 'png', 'webp'];
+  window.tryNext = function (img) {
+    var i = parseInt(img.getAttribute('data-i') || '0', 10);
+    if (i >= EXT.length) { img.remove(); return; }
+    img.setAttribute('data-i', i + 1);
+    img.src = 'images/' + img.getAttribute('data-slug') + '.' + EXT[i];
+  };
+  document.querySelectorAll('img.ph, img.logo').forEach(function (im) { window.tryNext(im); });
+  var buttons = document.querySelectorAll('#seg button');
+  var items = document.querySelectorAll('[data-s]');
+  function apply(f) {
+    items.forEach(function (el) {
+      var s = el.getAttribute('data-s');
+      el.hidden = !(f === 'all' || s === f || s === 'both');
+    });
+    buttons.forEach(function (b) {
+      b.setAttribute('aria-pressed', b.getAttribute('data-f') === f ? 'true' : 'false');
+    });
+  }
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () { apply(b.getAttribute('data-f')); });
+  });
+  apply('tg');
+})();
+</script>
+<script src="map.js"></script>
+</body>
+</html>
